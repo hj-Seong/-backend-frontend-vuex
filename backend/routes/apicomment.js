@@ -15,7 +15,7 @@ router.get("/:id", function (req, res, next) {
 router.post("/", function (req, res, next) {
   const comment = req.body.data.comment;
   // 새로 추가할 코멘트의 id값
-  // 위에 작성한 count의 const를 let으로 바꿔서 사용!!
+  // 위에 작성한 count의 const를 let으로 수정하였습니다
   count++;
   // 자바스크립트 객체 comment에다가 id객체 추가
   comment.id = count;
